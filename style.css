@@ -236,6 +236,13 @@ input {
     width: 100%;
 }
 
+.total {
+    color: black;
+    text-align: center;
+    font-size: 3em;
+    height: auto;
+    width: 100%;
+}
 
 
 

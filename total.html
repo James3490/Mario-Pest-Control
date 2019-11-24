@@ -33,32 +33,35 @@
         <div class="goombas">
         <h2>Goomba's</h2>
         
-        <h3>Total Goomba's Eliminated</h3>
+        <h3>Total Goomba's Eliminated (5 coins each)</h3>
          <div class="goombaNumber"></div>
-         <h3>TOTAL AMOUNT OWED</h3>
          <img class="goombapic" src="/images/solo goomba.png" alt="Goomba">
-         <input id="goombaNumber" type="number" placeholder="Enter Number">
+         <input id="goombaNumber" type="number" placeholder="Enter Number" onchange="updateTotal()">
         </div>
 
         <div class="bob-omb">
                 <h2>Bob-omb's</h2>
                 
-                <h3>Total Bob-omb's Eliminated</h3>
+                <h3>Total Bob-omb's Eliminated (7 coins each)</h3>
                  <div class="bobNumber"></div>
-                 <h3>TOTAL AMOUNT OWED</h3>
                  <img class="bob2" src="/images/solo bob-omb.png">
-                 <input id="bobOmbNumber" type="number" placeholder="Enter Number">
+                 <input id="bobOmbNumber" type="number" placeholder="Enter Number" onchange="updateTotal()">
                 </div>
 
-                <div class="cheep-cheep">
+        <div class="cheep-cheep">
                         <h2>Cheep-cheep's</h2>
                         
-                        <h3>Total Cheep-cheep's Eliminated</h3>
+                        <h3>Total Cheep-cheep's Eliminated (11 coins each)</h3>
                          <div class="cheepNumber"></div>
-                         <h3>TOTAL AMOUNT OWED</h3>
                          <img class="cheep2" src="/images/solo cheep-cheep.png">
-                         <input id="cheepCheepNumber" type="number" placeholder="Enter Number">
-                        </div>
+                         <input id="cheepCheepNumber" type="number" placeholder="Enter Number" onchange="updateTotal()">
+        </div>
+                
+        <div class="total">
+                     <h2>Total Coins Due</h2>
+                     <h3>Total: <span id="total">0</span></h3>
+
+        </div>
     </span>
     
     <script src="/index.js"></script>
