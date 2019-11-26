@@ -236,6 +236,10 @@ input {
     width: 100%;
 }
 
+.total {
+    text-align: center;
+}
+
 footer {
     display: flex;
     justify-content: space-around;
